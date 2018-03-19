@@ -7,5 +7,4 @@ describe('The isWeekday function', function(){
         // this test will fail - can you fix it?
       assert.equal(isWeekday('Saturday'),false);
     });
-
 });
