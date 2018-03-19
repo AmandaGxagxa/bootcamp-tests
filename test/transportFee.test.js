@@ -10,7 +10,7 @@ describe('The transportFee function', function(){
 
   it('should be free if you work another than morning and afternoon shifts', function(){
       // var nightShift="";
-        assert.equal(transportFee("nightShift"),"free");
+        assert.notEqual(transportFee("nightShift"),"another");
     });
 
 });

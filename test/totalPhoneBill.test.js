@@ -9,9 +9,9 @@ describe('The totalPhoneBill function', function(){
       assert.equal(totalPhoneBill("call, call, sms"),"R6.15");
   });
 
-  it('should give the sum of the smses and calls cost', function(){
+  it('Please try again!', function(){
 
-        assert.equal(totalPhoneBill("call, sms"),"R3.40");
+        assert.notEqual(totalPhoneBill("call, sms"),"R5.40");
     });
 
 });

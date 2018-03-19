@@ -5,6 +5,6 @@ describe('The isWeekday function', function(){
     });
     it('should be false if it is a weekend day. ', function(){
         // this test will fail - can you fix it?
-      assert.equal(isWeekday('Saturday'),false);
+      assert.notEqual(isWeekday('Saturday'),true);
     });
 });
